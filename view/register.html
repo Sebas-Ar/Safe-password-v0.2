@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Password - Register</title>
+    <link rel="shortcut icon" href="../img/ico/key-solid.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script type="module" src="../js/register.js" defer></script>
+</head>
+<body>
+    <section>
+        <div id="logo">
+            <svg viewBox="0 0 1944.3 512" >
+                <style>
+                    .st0{font-family:'Segoe UI';}
+                    .st1{font-size:264.1624px;}
+                    .st2{letter-spacing:10;}
+                </style>
+                <path fill="currentColor" d="M512,176c0,97.2-78.8,176-176,176c-11.2,0-22.2-1.1-32.8-3.1l-24,27c-4.6,5.1-11.1,8.1-17.9,8.1H224v40
+                    c0,13.3-10.7,24-24,24h-40v40c0,13.3-10.7,24-24,24H24c-13.3,0-24-10.7-24-24v-78.1c0-6.4,2.5-12.5,7-17l161.8-161.8
+                    c-5.7-17.4-8.8-35.9-8.8-55.2C160,78.8,238.8,0,336,0C433.5,0,512,78.5,512,176z M336,128c0,26.5,21.5,48,48,48s48-21.5,48-48
+                    s-21.5-48-48-48S336,101.5,336,128z"/>
+                <text fill="currentColor" transform="matrix(1 0 0 1 504.999 239.2998)"><tspan x="0" y="0" class="st0 st1 st2">SAFE</tspan><tspan x="0" y="218" class="st0 st1 st2">PASSWORD</tspan></text>
+            </svg>
+        </div>
+        <form>
+            <h2>REGISTER</h2>
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input type="password" name="repeatPassword" placeholder="Repeat Password">
+            <button type="submit">Register</button>
+            <span>
+                Already have an account, 
+                <a href="./login.html">Go to login</a>
+            </span>
+        </form>
+    </section>
+</body>
+</html>

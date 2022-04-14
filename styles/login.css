@@ -1,0 +1,79 @@
+body {
+    display: grid;
+    height: 100vh;
+    min-height: 600px;
+    align-items: center;
+}
+
+section {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 1rem;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+div {
+    height: 3.5rem;
+    cursor: pointer;
+    margin: auto;
+}
+
+svg {
+    color: var(--main-color);
+    height: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 20rem;
+    background-color: var(--main-color);
+    align-self: flex-start;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    row-gap: 2rem;
+}
+
+input {
+    width: 70%;
+    border: none;
+    font-weight: 700;
+    border-bottom: 3px solid white;
+    background-color: unset;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.418);
+}
+
+span {
+    color: white;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.658);
+    font-weight: 600;
+    display: block;
+    padding: 5px 30px;
+    border-radius: 1rem;
+}
